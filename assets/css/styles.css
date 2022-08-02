@@ -453,7 +453,17 @@ img{
   color: var(--text-color-light);
   margin-top: 3.5rem;
 }
-
+.footer__imagediv{
+ display: flex; 
+ align-items: center;
+  align-content: center; 
+  justify-content: center;
+}
+.footer__img{
+height: 50px; 
+width: 250px; 
+object-fit: cover;
+}
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
   .home__container,
